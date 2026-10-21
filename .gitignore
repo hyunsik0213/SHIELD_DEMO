@@ -1,0 +1,26 @@
+# Credentials and machine configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+.codex/
+# User data, documents and recordings
+*.hwp
+*.hwpx
+*.pdf
+*.webm
+*.mp4
+*.mov
+*.sqlite*
+*.db
+*.log
+storage-state*.json
+playwright/.auth/
+node_modules/
+.DS_Store
+Thumbs.db
